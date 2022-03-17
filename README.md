@@ -88,14 +88,14 @@ class TrainerImplementor(metaclass=abc.ABCMeta):
 Due to design choices, NILM toolkits present sofar require implementing to pipeline form scratch 
 despite the fact that many contribution share the majority of pipeline's components. To overcome this limitation, 
 Deep-NILMtk reliefs the developers from this burden, the toolkit allows altering element from the
-NILM pipeline  [notebook](https://github.com/BHafsa/deep-nilmtk-v1/blob/master/notebook/Manipulating_nilm_pipeline.ipynb).
+NILM pipeline  [notebook](https://github.com/DBRTII/Deep-NILMtk/blob/master/notebook/Manipulating_nilm_pipeline.ipynb).
 
 ### III. Experiment templates
 
 Comparability and benchmarking are important part of the research process. However, they remain as an obstacle 
 in the NILM scholarship due to different experimental setups. Deep-nilmtk offer the option to define experiment 
 design as templates that can become the base for benchmarking new models with existing models. A tutorial on how this 
-can be implemented is available in the following [notebook](https://github.com/BHafsa/deep-nilmtk-v1/blob/master/notebook/Experiment%20templates.ipynb).
+can be implemented is available in the following [notebook](https://github.com/DBRTII/Deep-NILMtk1/blob/master/notebook/Experiment%20templates.ipynb).
 
 ### IV. ML tools
 
